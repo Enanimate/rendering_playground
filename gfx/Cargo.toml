@@ -6,7 +6,7 @@ edition = "2024"
 [dependencies]
 env_logger = "0.11"
 pollster = "0.4"
-wgpu = {git = "https://github.com/gfx-rs/wgpu"}
+wgpu = {git = "https://github.com/gfx-rs/wgpu"} # Source should be changed from the git path once WGPU pushes update 26.0.2, until then only the latest git repo is operable here.
 winit = { version = "0.30.8" }
 anyhow = "1.0.98"
 bytemuck = "1.23.1"
